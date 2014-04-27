@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 int main(int argc, char **argv){
-    printf("-------- START --------\n");
+  //  printf("-------- START --------\n");
     if(argc!=4){
         printf("-------- ERROR -------- \n");
         printf("Invalid number of arguments(%d)\n",argc-1);
@@ -25,6 +25,7 @@ int main(int argc, char **argv){
     
     
     file=fopen(argv[3],"w");
+    fprintf(file, "%d,%d\n",rows,columns);
     for(o = 0; o<columns; o++){
         random[o]=(int*)malloc(columns*sizeof(int));
         for(i = 0; i<rows; i++){
@@ -34,6 +35,6 @@ int main(int argc, char **argv){
     fprintf(file,"\n");   
     }
     fclose(file);
-    printf("-------- STOP -------- \n");
+//  printf("-------- STOP -------- \n");
     return 0;
 }

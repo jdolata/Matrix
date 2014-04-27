@@ -108,7 +108,7 @@ int main(int argc, char **argv){
      printf("-------- STOP --------\n");
     exit(0);
   }
-  printf("Loaded data:\n"); 
+  /*printf("Loaded data:\n"); 
   printf("-------- MATRIX A --------\n");
   for(i=0; i<rows_A; i++){
     for(j=0; j<columns_A; j++){
@@ -123,7 +123,7 @@ int main(int argc, char **argv){
       printf("%d ",matrixB[i][j]);
     }
     printf("\n");
-  }
+  }*/
  
   int matrixC[rows_A][columns_B];
   for(i=0; i<rows_A; i++){
@@ -145,19 +145,19 @@ int main(int argc, char **argv){
   printf("-------- MULTIPLICATION --------\n");
   printf("Multiplication of AxB time: %3.10lfs\n",sp);
  
-  printf("Product matrix:\n");
+ // printf("Product matrix:\n");
   clock_gettime(CLOCK_PROCESS_CPUTIME_ID,&tp0);
-  printf("-------- MATRIX C --------\n");
+  //printf("-------- MATRIX C --------\n");
   file=fopen("log.txt","a");
   fprintf(file,"\n------------------\n");
   fprintf(file,"Multiplication of %s * %s result:\n",argv[1],argv[2]);
   for(i=0; i<rows_A; i++){
     for(j=0; j<columns_B; j++){
       fprintf(file,"%d ",matrixC[i][j]);
-        printf("%d ",matrixC[i][j]);
+      //  printf("%d ",matrixC[i][j]);
     }
     fprintf(file,"\n");
-      printf("\n");
+    //  printf("\n");
   }
     
   clock_gettime(CLOCK_PROCESS_CPUTIME_ID,&tp1);
