@@ -1,0 +1,42 @@
+Multiplication of A.mtx * B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication of A.mtx * B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication of A.mtx * B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication program time: 0.0007632040s------------------
+Multiplication of A.mtx * B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication program time: 0.0007270840s
+------------------
+Multiplication of A.mtx * B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication program time: 0.0007359740s
+------------------
+Multiplication of A.mtx * B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication program time: 0.0007151720s
+------------------
+Multiplication of matrixes/A.mtx * matrixes/B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication program time: 0.0009317730s
+------------------
+Multiplication of matrixes/A.mtx * matrixes/B.mtx result:
+209 418 836 
+428 856 1712 
+647 1294 2588 
+Multiplication program time: 0.0009993470s
